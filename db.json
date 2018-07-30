@@ -1,95 +1,253 @@
 {
- "fields": [
+ "albums": [
       {
-         "type":"text",
-         "label":"First Name",
-         "id":"user-first-name",
-         "icon":"fa-user",
-         "options":[
-
-         ]
+         "id": 1,
+         "name":"Old Work Pictures",
+         "coverPhoto":"https://i.imgur.com/Ltaw8Ik.jpg"
       },
       {
-         "type":"text",
-         "label":"Last Name",
-         "id":"user-last-name",
-         "icon":"fa-user",
-         "options":[
-
-         ]
+         "id": 2,
+         "name":"My Artwork",
+         "coverPhoto":"https://i.imgur.com/obPYB5T.jpg"
       },
       {
-         "type":"email",
-         "label":"Email Address",
-         "id":"user-email",
-         "icon":"fa-envelope",
-         "options":[
-
-         ]
+         "id": 3,
+         "name":"Osaka",
+         "coverPhoto":"https://images.unsplash.com/photo-1503414602296-16db14c42f8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=956696e71f7495435c575a97f83abc28&auto=format&fit=crop&w=934&q=80"
       },
       {
-         "type":"text",
-         "label":"Current website url",
-         "id":"user-website",
-         "icon":"fa-globe",
-         "options":[
-
-         ]
+         "id": 4,
+         "name":"Scuba Diving",
+         "coverPhoto":"https://images.unsplash.com/photo-1521774156062-c6ae1c11adf1?ixlib=rb-0.3.5&s=bb3de5f482f07ebe51bc4c7153e8d54c&auto=format&fit=crop&w=1906&q=80"
       },
       {
-         "type":"select",
-         "label":"Select Language",
-         "id":"user-language",
-         "icon":"",
-         "options":[
-            {
-               "label":"English",
-               "value":"EN"
-            },
-            {
-               "label":"French",
-               "value":"FR"
-            },
-            {
-               "label":"Spanish",
-               "value":"SP"
-            },
-            {
-               "label":"Chinese",
-               "value":"CH"
-            },
-            {
-               "label":"Japanese",
-               "value":"JP"
-            }
-         ]
+         "id": 5,
+         "name":"Good Food",
+         "coverPhoto":"https://images.unsplash.com/photo-1504185945330-7a3ca1380535?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9f2d35c4ea30a81e428e66c653748f91&auto=format&fit=crop&w=921&q=80"
       },
       {
-         "type":"textarea",
-         "label":"Your Comment",
-         "id":"user-comment",
-         "icon":"fa-comments",
-         "options":[
+         "id": 6,
+         "name":"Hiking",
+         "coverPhoto":"https://images.unsplash.com/photo-1456694441711-af0ab2d64c96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=854acf0400c42e33c0f25623687e55d5&auto=format&fit=crop&w=1950&q=80"
+      }
+   ],
 
-         ]
+ "images": [
+      {
+         "id": 1,
+         "albumId":1,
+         "name": "Birthday Cake",
+         "imageUrl":"https://i.imgur.com/EvJ1L50.jpg"
       },
       {
-         "type":"tel",
-         "label":"Mobile Number",
-         "id":"user-mobile",
-         "icon":"fa-mobile-phone",
-         "options":[
-
-         ]
+         "id": 2,
+         "albumId":1,
+         "name": "Hot Coffee",
+         "imageUrl":"https://i.imgur.com/dKVLgTu.jpg"
       },
       {
-         "type":"tel",
-         "label":"Home Number",
-         "id":"user-phone",
-         "icon":"fa-phone",
-         "options":[
-
-         ]
+         "id": 3,
+         "albumId":1,
+         "name": "Looking fancy",
+         "imageUrl":"https://i.imgur.com/E7LXG6w.jpg"
+      },
+      {
+         "id": 4,
+         "albumId":1,
+         "name": "Butler on Stairs",
+         "imageUrl":"https://i.imgur.com/Ltaw8Ik.jpg"
+      },
+      {
+         "id": 5,
+         "albumId":1,
+         "name": "Bartending",
+         "imageUrl":"https://i.imgur.com/b2TOK02.jpg"
+      },
+      {
+         "id": 6,
+         "albumId":1,
+         "name": "Nice View",
+         "imageUrl":"https://i.imgur.com/g6eFmk9.jpg"
+      },
+      {
+         "id": 7,
+         "albumId":2,
+         "name": "Obsession",
+         "imageUrl":"https://i.imgur.com/BUKAhVW.jpg"
+      },
+      {
+         "id": 8,
+         "albumId":2,
+         "name": "Gas Mask and Roses",
+         "imageUrl":"https://i.imgur.com/obPYB5T.jpg"
+      },
+      {
+         "id": 9,
+         "albumId":2,
+         "name": "Cupid",
+         "imageUrl":"https://i.imgur.com/WIHRULh.jpg"
+      },
+      {
+         "id": 10,
+         "albumId":2,
+         "name": "Weed the People",
+         "imageUrl":"https://i.imgur.com/eCWwZZh.jpg"
+      },
+      {
+         "id": 11,
+         "albumId":2,
+         "name": "Akira Wall Display",
+         "imageUrl":"https://i.imgur.com/dT8Lwf9.jpg"
+      },
+      {
+         "id": 12,
+         "albumId":2,
+         "name": "Green Gas Mask and Acrylics",
+         "imageUrl":"https://i.imgur.com/hy96HTY.jpg"
+      },
+      {
+         "id": 13,
+         "albumId":3,
+         "name": "Ferris Wheel at Hep5",
+         "imageUrl":"https://images.unsplash.com/photo-1500724095139-2db11387196e?ixlib=rb-0.3.5&s=54123bd4942aac96a0b1fe3e0105d6c4&auto=format&fit=crop&w=800&q=60"
+      },
+      {
+         "id": 14,
+         "albumId":3,
+         "name": "Osaka Back Alley",
+         "imageUrl":"https://images.unsplash.com/photo-1525338255893-4f763e1bc5ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c8dd7570b7e517e2f8d05179457a5cd9&auto=format&fit=crop&w=1951&q=80"
+      },
+      {
+         "id": 15,
+         "albumId":3,
+         "name": "Takoyaki",
+         "imageUrl":"https://images.unsplash.com/photo-1485394735640-56c0356b62cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68121eb169bbc6dcd0ba5dfa7ab1fbf7&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 16,
+         "albumId":3,
+         "name": "Fushimi Temple",
+         "imageUrl":"https://images.unsplash.com/photo-1484190034679-e5849344a8da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e29fd2379308b42a026b91edf3ee576a&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 17,
+         "albumId":3,
+         "name": "Dotombori",
+         "imageUrl":"https://images.unsplash.com/photo-1522177743530-6dcab6baa5f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d916a57f96ac5eb97eced8f25756f93e&auto=format&fit=crop&w=2390&q=80"
+      },
+      {
+         "id": 18,
+         "albumId":3,
+         "name": "Osaka Castle",
+         "imageUrl":"https://images.unsplash.com/photo-1503414602296-16db14c42f8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=956696e71f7495435c575a97f83abc28&auto=format&fit=crop&w=934&q=80"
+      },
+      {
+         "id": 19,
+         "albumId":4,
+         "name": "Bubbles Everywhere",
+         "imageUrl":"https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=187e9356664984e1edba393d681087e3&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 20,
+         "albumId":4,
+         "name": "Belize",
+         "imageUrl":"https://images.unsplash.com/photo-1463468217891-c11f48e6310a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=23a795a8a105fbfae3642d7b2be16edc&auto=format&fit=crop&w=1867&q=80"
+      },
+      {
+         "id": 21,
+         "albumId":4,
+         "name": "Thailand",
+         "imageUrl":"https://images.unsplash.com/photo-1515650679378-22c165e451a0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b6af8125d1f30c6b335376ac6fa8030&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 22,
+         "albumId":4,
+         "name": "Hawaii",
+         "imageUrl":"https://images.unsplash.com/photo-1478760018980-38fd12687f47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58a5f18b096acbe1910ddf082bfb5ae7&auto=format&fit=crop&w=1867&q=80"
+      },
+      {
+         "id": 23,
+         "albumId":4,
+         "name": "Greece",
+         "imageUrl":"https://images.unsplash.com/photo-1467044705596-744699fa8931?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0edeb20b69749adcc3bf49b00f0224fa&auto=format&fit=crop&w=1951&q=80"
+      },
+      {
+         "id": 24,
+         "albumId":4,
+         "name": "Australia",
+         "imageUrl":"https://images.unsplash.com/photo-1521774156062-c6ae1c11adf1?ixlib=rb-0.3.5&s=bb3de5f482f07ebe51bc4c7153e8d54c&auto=format&fit=crop&w=1906&q=80"
+      },
+      {
+         "id": 25,
+         "albumId":5,
+         "name": "Delicious burger from Greece",
+         "imageUrl":"https://images.unsplash.com/photo-1504185945330-7a3ca1380535?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9f2d35c4ea30a81e428e66c653748f91&auto=format&fit=crop&w=921&q=80"
+      },
+      {
+         "id": 26,
+         "albumId":5,
+         "name": "Amazing Pasta Salad from Toronto",
+         "imageUrl":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9443baefd581d4e532b6d4f1e7879be&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 27,
+         "albumId":5,
+         "name": "Flank steak tacos from NYC",
+         "imageUrl":"https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be3aa106f944edc77c68fcd567c22bbb&auto=format&fit=crop&w=975&q=80"
+      },
+      {
+         "id": 28,
+         "albumId":5,
+         "name": "Pizza from Okinawa",
+         "imageUrl":"https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86c8c1fd5e9e5b384696472a095c42ac&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 29,
+         "albumId":5,
+         "name": "Grilled Salmon from Alabama",
+         "imageUrl":"https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=190067166ef6ae574ca9104c98f1f0c2&auto=format&fit=crop&w=934&q=80"
+      },
+      {
+         "id": 30,
+         "albumId":5,
+         "name": "Macaroons from SLC",
+         "imageUrl":"https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=934&q=80"
+      },
+      {
+         "id": 31,
+         "albumId":6,
+         "name": "Italy",
+         "imageUrl":"https://images.unsplash.com/photo-1456694441711-af0ab2d64c96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=854acf0400c42e33c0f25623687e55d5&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 32,
+         "albumId":6,
+         "name": "Italy",
+         "imageUrl":"https://images.unsplash.com/reserve/91JuTaUSKaMh2yjB1C4A_IMG_9284.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6473193d9077f9bf80ba34e9f665ebd4&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 33,
+         "albumId":6,
+         "name": "Iceland",
+         "imageUrl":"https://images.unsplash.com/photo-1501535033-a594139be346?ixlib=rb-0.3.5&s=be0b2ae0d0ea5a5faeb69d00247dd597&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 34,
+         "albumId":6,
+         "name": "Austria",
+         "imageUrl":"https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=da335463922eb35c0913912d75bfbc2d&auto=format&fit=crop&w=1950&q=80"
+      },
+      {
+         "id": 35,
+         "albumId":6,
+         "name": "China",
+         "imageUrl":"https://images.unsplash.com/photo-1492133969098-09ba49699f47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9d44d86e286b844974cf6811b7ee92f1&auto=format&fit=crop&w=2389&q=80"
+      },
+      {
+         "id": 36,
+         "albumId":6,
+         "name": "Crested Butte",
+         "imageUrl":"https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=597836a4522cdb507d8ef992e2e92947&auto=format&fit=crop&w=2106&q=80"
       }
    ]
 }
