@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import axios from 'axios'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Home from './Home' //first page displaying all albums and image previews
+import Album from './Album' //photo preview page with sidebar navigation
+import Picture from './Picture' //individual photos are displayed here
+//css styling has also been broken up among the components for ease of reading and to avoid calling styles that won't be used
 
 class App extends Component {
-  componentDidMount() {
-    axios.get('http://localhost:3001/fields').then(resp => {
-      console.log(resp.data)
-    })
-  }
-
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+      <Router>
+        <Switch> 
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/album/:albumid/:imageid" component={Picture} />
+          <Route path="/album/:albumid" component={Album} />
+        </Switch> 
+      </Router> 
+    ); //need an exact path to avoid rendering both the album and picture
   }
 }
 

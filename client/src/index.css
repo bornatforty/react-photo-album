@@ -1,5 +1,22 @@
+/* global styles go here*/
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #222;
+}
+
+a:hover{
+	color: #fe5f55;
 }

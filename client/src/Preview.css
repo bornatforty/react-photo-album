@@ -1,0 +1,36 @@
+.preview{
+	padding: 0 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 33%;
+	margin: 25px 0 25px 0;
+	align-self: flex-start;
+
+}
+
+.previewLink{
+	width: 100%;
+	background-color: #eef5db;
+	border-radius: 20px;
+	box-shadow: 4px 4px 2px #000;
+}
+
+.previewImageWrapper{
+	overflow: hidden;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.previewImage{
+	height: 350px;
+	width: 350px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 2px #000;
+}
+
+.previewName{
+	text-align: center;
+	font-size: 24px;
+	padding: 5px 0;
+}

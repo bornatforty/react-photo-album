@@ -1,0 +1,49 @@
+#albumPageContainer{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#albumSidebar{
+	width: 250px;
+	flex: 0 0 auto;
+	border-right: 4px solid #c7efcf;
+	background: #c7efcf;
+}
+#albumSidebar > * {
+	padding: 0 0 0 10px;
+}
+
+#sidebarTitle {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #c7efcf;
+	font-size: 24px;
+}
+.sidebarLinks, .sidebarLinks *{
+	text-align: center;
+	margin: 5px 0;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#albumTitle{
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	padding: 20px 0;
+	background-color: #fe5f55;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#albumMain{
+	width: 100%;
+}
+
+div #imagePreviews{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
