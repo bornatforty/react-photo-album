@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^3.5.1",
-    "json-server": "^0.12.1"
+    "json-server": "^0.12.1",
+    "redux": "^4.0.0"
   },
   "boilerplate": {
     "name": "dynamic-form",
